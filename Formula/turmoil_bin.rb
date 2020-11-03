@@ -3,7 +3,7 @@ class TurmoilBin < Formula
   homepage "https://spelmotor.com"
 
   url "https://github.com/piot/turmoil-dist/releases/download/0.0.0/turmoil.0.0.8.tar.bz2"
-  sha256 "2398819a6c6ae26424ad0360409b9af93be92b401a764957b2f8b14943b0ed49"
+  sha256 "d23f0f4225f6e398469502d877d19bf186c29db8a442d2207d993ca76b62b8a1"
 
   bottle :unneeded
 
