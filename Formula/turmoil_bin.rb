@@ -1,4 +1,4 @@
-class Turmoil < Formula
+class TurmoilBin < Formula
   desc "2D Engine"
   homepage "https://spelmotor.com"
 
