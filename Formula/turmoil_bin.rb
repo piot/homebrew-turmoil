@@ -12,6 +12,8 @@ class TurmoilBin < Formula
     bin.install "bin/turmoilc"
     bin.install "bin/turmoil_linux" => "turmoil" if OS.linux?
     bin.install "bin/turmoil_mac" => "turmoil" if OS.mac?
+
+    opt_prefix.install Dir["packages/"]
   end
 
   test do
