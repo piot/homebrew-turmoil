@@ -2,8 +2,8 @@ class TurmoilBin < Formula
   desc "2D Engine"
   homepage "https://spelmotor.com"
 
-  url "https://github.com/piot/turmoil-dist/releases/download/0.0.0/turmoil.0.0.6.tar.bz2"
-  sha256 "2ffdcbfeb2132dd9bc8e98d319142b9397807fb4c24d6bccab2c468fa236e310"
+  url "https://github.com/piot/turmoil-dist/releases/download/0.0.0/turmoil.0.0.6.tar.gz"
+  sha256 "bcd778a64605b6645ccb21be5823189a58e15799ecd0624e95c9c29d23ffa595"
 
   bottle :unneeded
 
