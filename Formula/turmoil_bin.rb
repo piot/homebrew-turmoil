@@ -5,7 +5,7 @@ class TurmoilBin < Formula
   url "https://github.com/piot/turmoil-dist/releases/download/0.0.0/turmoil.0.0.9.tar.bz2"
   sha256 "14eb51c7886b285bbdeb67753412bf7aa2eca7a2840c651753df5e4dd44c1cb6"
 
- # bottle :unneeded
+  bottle :unneeded
 
   def install
     os_extension = ""
