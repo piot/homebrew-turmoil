@@ -8,16 +8,17 @@ class TurmoilBin < Formula
   bottle :unneeded
 
   def install
-    os_extension = "darwin_amd64"
+    os_extension = ""
     if OS.linux?
       os_extension = "linux_amd64"
     elsif OS.mac?
+      os_extension = "darwin_amd64"
     end
     bin.install "bin/turmoil_#{os_extension}" => "turmoil"
     bin.install "bin/swamp_#{os_extension}" => "swamp"
     bin.install "bin/turmoilc"
 
-    opt_prefix.install Dir["packages/"]
+    opt_prefix.install "packages/"
   end
 
   test do
